@@ -1,147 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Buhari Yunusa Idris — Chemist, early-career researcher and chemistry educator. Research interests in green chemistry, natural products, nanochemistry, antimicrobial research and sustainable materials.">
-<title>Buhari Yunusa Idris | Chemist & Researcher</title>
-<style>
-:root{--ink:#172033;--muted:#667085;--accent:#0b6b61;--accent2:#d9f0eb;--paper:#fff;--bg:#f5f7f8;--line:#e5e7eb;--max:1120px}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg);line-height:1.65}
-a{color:inherit;text-decoration:none}.container{width:min(92%,var(--max));margin:auto}
-nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-.navbar{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800;letter-spacing:.02em}.brand span{color:var(--accent)}
-.navlinks{display:flex;gap:22px;font-size:.92rem}.navlinks a:hover{color:var(--accent)}
-.hero{background:linear-gradient(135deg,#edf7f4 0%,#fff 60%);padding:92px 0 78px;border-bottom:1px solid var(--line)}
-.hero-grid{display:grid;grid-template-columns:1.5fr .8fr;gap:60px;align-items:center}
-.eyebrow{color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:.13em;font-size:.78rem}
-h1{font-size:clamp(2.7rem,7vw,5rem);line-height:1.02;margin:14px 0 20px;letter-spacing:-.055em}
-.hero h2{font-size:1.35rem;margin:0 0 20px;font-weight:650}.hero p{font-size:1.08rem;color:var(--muted);max-width:720px}
-.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;padding:12px 18px;border-radius:10px;font-weight:750;border:1px solid var(--accent)}.primary{background:var(--accent);color:white}.secondary{color:var(--accent);background:white}
-.profile-card{background:white;border:1px solid var(--line);border-radius:22px;padding:28px;box-shadow:0 15px 40px rgba(23,32,51,.08)}
-.initials{width:96px;height:96px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:white;font-size:2rem;font-weight:850;margin-bottom:18px}.profile-photo{width:150px;height:150px;object-fit:cover;object-position:center top;border-radius:20px;display:block;margin-bottom:18px;border:4px solid white;box-shadow:0 8px 24px rgba(23,32,51,.12)}
-.profile-card strong{display:block;font-size:1.15rem}.profile-card small{color:var(--muted)}
-section{padding:82px 0}.section-head{max-width:760px;margin-bottom:34px}.section-head h2{font-size:2rem;letter-spacing:-.03em;margin:0 0 10px}.section-head p{color:var(--muted)}
-.about{display:grid;grid-template-columns:1fr 1fr;gap:45px}.quote{border-left:4px solid var(--accent);padding:8px 0 8px 20px;font-size:1.15rem;font-weight:650}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;border:1px solid var(--line);border-radius:16px;padding:24px}.card h3{margin-top:0}.card p{color:var(--muted);font-size:.95rem}.tag{display:inline-block;background:var(--accent2);color:#07594f;border-radius:999px;padding:5px 10px;margin:4px 4px 0 0;font-size:.8rem;font-weight:700}
-.feature{background:#102c2a;color:white;border-radius:22px;padding:36px}.feature p{color:#d7e6e3}.feature .tag{background:#204f4a;color:#e8faf6}
-.pub{padding:20px 0;border-bottom:1px solid var(--line)}.pub:last-child{border-bottom:0}.pub h3{margin:0 0 7px;font-size:1.03rem}.pub p{margin:0;color:var(--muted);font-size:.92rem}
-.timeline{border-left:2px solid #cdd8d6;margin-left:8px;padding-left:25px}.item{position:relative;margin:0 0 28px}.item:before{content:"";position:absolute;left:-33px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 5px var(--bg)}.item strong{color:var(--accent)}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:30px}.list{margin:0;padding-left:20px}.list li{margin:8px 0}
-.contact{background:var(--ink);color:white}.contact p{color:#cbd2dd}.contact a{color:#bde7df}.contact-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:45px}
-footer{background:#0e1523;color:#aeb7c5;padding:22px 0;font-size:.85rem}
-@media(max-width:820px){.navlinks{display:none}.hero-grid,.about,.two,.contact-grid{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.hero{padding-top:65px}section{padding:62px 0}}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic profile of Buhari Yunusa Idris, Assistant Lecturer in Chemistry and Chemistry Education at Shehu Shagari University of Education, Sokoto, Nigeria.">
+  <meta name="author" content="Buhari Yunusa Idris">
+  <title>Buhari Yunusa Idris | Chemistry Academic & Researcher</title>
+  <style>
+    :root{
+      --navy:#0b1f33;
+      --blue:#0f5ea8;
+      --cyan:#1aa6b7;
+      --gold:#d7a52b;
+      --ink:#17212b;
+      --muted:#607080;
+      --paper:#f6f9fc;
+      --white:#ffffff;
+      --line:#dce6ef;
+      --shadow:0 18px 50px rgba(11,31,51,.10);
+      --radius:22px;
+    }
+    *{box-sizing:border-box;scroll-behavior:smooth}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.65}
+    a{color:inherit}
+    .container{width:min(1120px,92%);margin:auto}
+    nav{position:sticky;top:0;z-index:20;background:rgba(11,31,51,.94);backdrop-filter:blur(12px);color:#fff;border-bottom:1px solid rgba(255,255,255,.12)}
+    .nav-inner{height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{font-weight:800;letter-spacing:.3px}
+    .brand span{color:#7ee5ee}
+    .nav-links{display:flex;gap:20px;flex-wrap:wrap;justify-content:flex-end}
+    .nav-links a{text-decoration:none;font-size:.92rem;color:#dce8f3}
+    .nav-links a:hover{color:#fff}
+    .hero{background:linear-gradient(135deg,#081b2d 0%,#0e456e 62%,#116f7b 100%);color:#fff;padding:84px 0 72px;overflow:hidden;position:relative}
+    .hero:before,.hero:after{content:"";position:absolute;border:1px solid rgba(255,255,255,.10);border-radius:50%}
+    .hero:before{width:430px;height:430px;right:-170px;top:-130px}
+    .hero:after{width:280px;height:280px;left:-140px;bottom:-180px}
+    .hero-grid{display:grid;grid-template-columns:1.45fr .75fr;gap:55px;align-items:center;position:relative;z-index:1}
+    .eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.18);padding:7px 13px;border-radius:999px;font-size:.84rem;font-weight:700;color:#dffcff}
+    h1{font-size:clamp(2.7rem,6vw,5rem);line-height:1.03;margin:18px 0 15px;letter-spacing:-2.2px}
+    .hero h1 span{color:#79e2ea}
+    .subtitle{font-size:1.2rem;color:#e6f3f8;max-width:760px;margin:0 0 25px}
+    .hero-tags{display:flex;flex-wrap:wrap;gap:9px;margin:20px 0 30px}
+    .tag{border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.08);padding:7px 11px;border-radius:999px;font-size:.83rem}
+    .actions{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-block;text-decoration:none;padding:11px 17px;border-radius:12px;font-weight:750;border:1px solid rgba(255,255,255,.3)}
+    .btn.primary{background:#fff;color:var(--navy)}
+    .btn.ghost{color:#fff;background:rgba(255,255,255,.07)}
+    .portrait-wrap{justify-self:end;position:relative}
+    .portrait{width:min(330px,78vw);aspect-ratio:1/1;object-fit:cover;border-radius:34px;border:7px solid rgba(255,255,255,.9);box-shadow:0 25px 70px rgba(0,0,0,.25);display:block}
+    .badge{position:absolute;left:-25px;bottom:22px;background:#fff;color:var(--navy);padding:13px 15px;border-radius:16px;box-shadow:var(--shadow);font-size:.85rem;font-weight:800}
+    section{padding:78px 0}
+    .section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:30px}
+    .kicker{text-transform:uppercase;letter-spacing:2px;color:var(--blue);font-weight:850;font-size:.76rem}
+    h2{font-size:2.15rem;line-height:1.15;margin:6px 0 0;color:var(--navy)}
+    .lead{color:var(--muted);max-width:760px}
+    .about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:28px}
+    .card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:0 8px 28px rgba(11,31,51,.045)}
+    .card h3{margin-top:0;color:var(--navy)}
+    .stats{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+    .stat{padding:20px;border-radius:18px;background:linear-gradient(145deg,#eef8fb,#f7fbfd);border:1px solid #d9edf0}
+    .stat strong{display:block;font-size:1.7rem;color:var(--blue)}
+    .stat span{font-size:.86rem;color:var(--muted)}
+    .research-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .research-card{padding:25px;border-radius:20px;background:#fff;border:1px solid var(--line);min-height:205px}
+    .icon{width:43px;height:43px;border-radius:13px;display:grid;place-items:center;background:#e8f6f8;color:#0b7481;font-weight:900;font-size:1.2rem;margin-bottom:15px}
+    .research-card h3{margin:0 0 8px;color:var(--navy);font-size:1.05rem}
+    .research-card p{margin:0;color:var(--muted);font-size:.92rem}
+    .timeline{position:relative;margin-left:8px;padding-left:30px;border-left:2px solid #cfe0eb}
+    .timeline-item{position:relative;margin:0 0 30px}
+    .timeline-item:before{content:"";position:absolute;left:-38px;top:7px;width:13px;height:13px;border-radius:50%;background:var(--cyan);box-shadow:0 0 0 5px #e3f5f7}
+    .timeline-item .date{font-size:.78rem;color:var(--blue);font-weight:850;text-transform:uppercase;letter-spacing:1px}
+    .timeline-item h3{margin:4px 0 3px;color:var(--navy)}
+    .timeline-item p{margin:0;color:var(--muted)}
+    .pub-list{display:grid;gap:15px}
+    .pub{background:#fff;border:1px solid var(--line);border-radius:18px;padding:20px 22px;display:grid;grid-template-columns:52px 1fr;gap:15px}
+    .pub-num{width:42px;height:42px;border-radius:12px;background:#edf5fb;color:var(--blue);display:grid;place-items:center;font-weight:900}
+    .pub h3{margin:0 0 7px;font-size:1rem;color:var(--navy)}
+    .pub p{margin:0;color:var(--muted);font-size:.9rem}
+    .pub a{color:var(--blue);font-weight:750;text-decoration:none}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+    .pill-list{display:flex;flex-wrap:wrap;gap:9px}
+    .pill{background:#eef4f8;border:1px solid #d8e4ec;padding:8px 11px;border-radius:999px;font-size:.84rem;color:#294256}
+    .profiles{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+    .profile-link{display:block;text-decoration:none;background:#fff;border:1px solid var(--line);padding:20px;border-radius:18px}
+    .profile-link strong{display:block;color:var(--navy);margin-bottom:4px}
+    .profile-link span{font-size:.82rem;color:var(--muted)}
+    .contact{background:var(--navy);color:#fff}
+    .contact h2{color:#fff}
+    .contact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:stretch}
+    .contact-card{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:22px;padding:28px}
+    .contact-card p{color:#d6e5ef}
+    .contact-item{padding:13px 0;border-bottom:1px solid rgba(255,255,255,.12)}
+    .contact-item:last-child{border-bottom:0}
+    .contact-item small{display:block;color:#8ecbd3;text-transform:uppercase;letter-spacing:1.3px;font-weight:800;margin-bottom:3px}
+    .contact a{color:#fff;text-decoration:none}
+    footer{background:#071522;color:#9eb0bf;padding:25px 0;font-size:.82rem}
+    .footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    .chem{font-family:Georgia,serif;color:#8be4eb}
+    @media(max-width:850px){
+      .nav-inner{height:auto;padding:14px 0;align-items:flex-start}
+      .nav-links{gap:12px}
+      .hero-grid,.about-grid,.two-col,.contact-grid{grid-template-columns:1fr}
+      .portrait-wrap{justify-self:start}
+      .research-grid,.profiles{grid-template-columns:1fr}
+      .section-head{display:block}
+    }
+    @media(max-width:560px){
+      .nav-links{display:none}
+      section{padding:58px 0}
+      .hero{padding:60px 0}
+      h1{font-size:2.65rem}
+      .stats{grid-template-columns:1fr}
+      .pub{grid-template-columns:1fr}
+    }
+  </style>
 </head>
 <body>
-<nav><div class="container navbar">
-<a class="brand" href="#home">BUHARI <span>YUNUSA IDRIS</span></a>
-<div class="navlinks">
-<a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#presentations">Presentations</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
-</div></div></nav>
+<nav>
+  <div class="container nav-inner">
+    <div class="brand">Buhari <span>Yunusa Idris</span></div>
+    <div class="nav-links">
+      <a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a>
+      <a href="#experience">Experience</a><a href="#profiles">Profiles</a><a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
 
-<header class="hero" id="home"><div class="container hero-grid">
-<div>
-<div class="eyebrow">Chemist • Researcher • Chemistry Educator</div>
-<h1>Chemistry for<br><span style="color:var(--accent)">Sustainable Solutions.</span></h1>
-<h2>BUHARI YUNUSA IDRIS, M.Sc., B.Sc., NCE</h2>
-<p>Early-career researcher with interests spanning green chemistry, natural products, nanochemistry, antimicrobial research and sustainable materials. I am interested in translating chemistry research into practical solutions for environmental, agricultural and societal challenges.</p>
-<div class="actions"><a class="btn primary" href="#research">Explore my research</a><a class="btn secondary" href="#contact">Contact me</a></div><div style="margin-top:16px;font-size:.9rem;color:var(--muted)">
-<a href="https://orcid.org/0009-0008-1848-4927" target="_blank" rel="noopener" style="margin-right:14px">ORCID</a>
-<a href="https://scholar.google.com/citations?user=LZvACn4AAAAJ&hl=en" target="_blank" rel="noopener" style="margin-right:14px">Google Scholar</a>
-<a href="https://www.linkedin.com/in/buhari-yunusa-idris-97203263" target="_blank" rel="noopener">LinkedIn</a>
-</div>
-</div>
-<div class="profile-card"><img class="profile-photo" src="buhari-yunusa-idris.jpg" alt="Buhari Yunusa Idris, chemist and early-career researcher">
-<strong>Research focus</strong><small>Green & sustainable chemistry</small>
-<div style="margin-top:18px"><span class="tag">Natural Products</span><span class="tag">Nanochemistry</span><span class="tag">Antimicrobial Research</span><span class="tag">Sustainable Materials</span></div>
-</div>
-</div></header>
+<header class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">🧪 Academic • Researcher • Science Educator</div>
+      <h1>Buhari <span>Yunusa Idris</span></h1>
+      <p class="subtitle"><strong>Assistant Lecturer</strong> · Department of Chemistry and Chemistry Education<br>
+      Shehu Shagari University of Education, Sokoto, Nigeria</p>
+      <div class="hero-tags">
+        <span class="tag">Chemistry</span><span class="tag">Green Chemistry</span><span class="tag">Natural Products</span>
+        <span class="tag">Nanochemistry</span><span class="tag">Chemistry Education</span>
+      </div>
+      <div class="actions">
+        <a class="btn primary" href="#research">Explore Research</a>
+        <a class="btn ghost" href="#contact">Contact Me</a>
+      </div>
+    </div>
+    <div class="portrait-wrap">
+      <img class="portrait" src="profile.jpg" alt="Buhari Yunusa Idris">
+      <div class="badge">M.Sc. Chemistry · MACS · MRSC</div>
+    </div>
+  </div>
+</header>
 
-<section id="about"><div class="container">
-<div class="section-head"><h2>About Me</h2><p>A developing research profile built around chemistry, education, scientific communication and practical innovation.</p></div>
-<div class="about"><div>
-<p>I am a Nigerian chemist, early-career researcher and chemistry educator. I completed my M.Sc. in Chemistry at Sokoto State University (2023–2025), following a B.Sc. in Pure Chemistry from Usmanu Danfodiyo University (2014–2017).</p>
-<p>My postgraduate research focused on the isolation, characterization and antimicrobial study of <em>Trigoniulus corallinus</em> (red millipedes). My academic interests have also included natural coagulants for water treatment and water purification using <em>Moringa oleifera</em>.</p>
-<p>Alongside research and teaching, I have participated in chemistry outreach, conferences, workshops and professional activities through organizations including the American Chemical Society and other scientific bodies.</p>
-</div><div class="quote">“Developing scientifically sound, environmentally responsible and practically useful chemistry-based solutions.”</div></div>
-</div></section>
+<main>
+<section id="about">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="kicker">About</div><h2>Connecting chemistry, education and societal needs.</h2></div>
+    </div>
+    <div class="about-grid">
+      <article class="card">
+        <h3>Professional Profile</h3>
+        <p>I am an Assistant Lecturer in the Department of Chemistry and Chemistry Education at Shehu Shagari University of Education, Sokoto, Nigeria. My academic interests combine chemistry research, science education, research communication and practical approaches to societal challenges.</p>
+        <p>My research experience includes natural products, phytochemical and zoochemical profiling, antimicrobial studies, sustainable chemistry and emerging applications of nanomaterials. I am particularly interested in research that can move from the laboratory toward useful, affordable and sustainable products.</p>
+        <p>I hold an M.Sc. in Chemistry from Sokoto State University, a B.Sc. in Pure Chemistry from Usmanu Danfodiyo University, and an NCE in Chemistry and Computer Science.</p>
+      </article>
+      <aside class="stats">
+        <div class="stat"><strong>M.Sc.</strong><span>Chemistry · Sokoto State University, 2025</span></div>
+        <div class="stat"><strong>8+</strong><span>Research publications listed in current CV</span></div>
+        <div class="stat"><strong>10+</strong><span>Years of teaching and education experience</span></div>
+        <div class="stat"><strong>ACS</strong><span>Member and former SSU International Chapter President</span></div>
+      </aside>
+    </div>
+  </div>
+</section>
 
-<section id="research" style="background:white"><div class="container">
-<div class="section-head"><h2>Research Interests</h2><p>My research interests connect natural resources, sustainable chemistry and functional materials.</p></div>
-<div class="cards">
-<div class="card"><h3>Green Chemistry</h3><p>Sustainable extraction, synthesis and chemical processes that reduce environmental impact and make better use of available resources.</p></div>
-<div class="card"><h3>Natural Products</h3><p>Investigation of biological resources as sources of chemically and biologically useful compounds.</p></div>
-<div class="card"><h3>Nanochemistry</h3><p>Green synthesis and characterization of functional nanomaterials for agricultural, environmental and antimicrobial applications.</p></div>
-<div class="card"><h3>Antimicrobial Research</h3><p>Study of natural products and nanomaterials with potential antimicrobial applications.</p></div>
-<div class="card"><h3>Sustainable Materials</h3><p>Development of affordable materials and chemistry technologies using locally available resources.</p></div>
-<div class="card"><h3>Research Translation</h3><p>Moving promising laboratory findings toward practical applications, innovation and community impact.</p></div>
-</div>
-</div></section>
+<section id="research">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="kicker">Research</div><h2>Areas of academic interest</h2></div>
+      <p class="lead">Research directions are centered on chemistry that can support health, sustainability, education and practical innovation.</p>
+    </div>
+    <div class="research-grid">
+      <article class="research-card"><div class="icon">♻</div><h3>Green & Sustainable Chemistry</h3><p>Sustainable extraction, safer chemistry, waste reduction and environmentally responsible approaches to chemical research.</p></article>
+      <article class="research-card"><div class="icon">✦</div><h3>Natural Products</h3><p>Isolation, characterization and biological evaluation of bioactive compounds from natural sources.</p></article>
+      <article class="research-card"><div class="icon">◈</div><h3>Nanochemistry</h3><p>Interest in plant-mediated nanoparticles, antimicrobial materials and sustainable nanotechnology applications.</p></article>
+      <article class="research-card"><div class="icon">⌬</div><h3>Antimicrobial Chemistry</h3><p>Phytochemical, zoochemical and antimicrobial investigations of natural extracts and isolated compounds.</p></article>
+      <article class="research-card"><div class="icon">H₂O</div><h3>Water & Environmental Chemistry</h3><p>Natural coagulants, water treatment, sustainable materials and chemistry-based environmental solutions.</p></article>
+      <article class="research-card"><div class="icon">⚗</div><h3>Chemistry Education</h3><p>Innovative chemistry teaching, outreach, instructional materials, ICT and approaches that improve science learning.</p></article>
+    </div>
+  </div>
+</section>
 
-<section><div class="container">
-<div class="feature">
-<div class="eyebrow" style="color:#9de1d5">Featured M.Sc. Research</div>
-<h2>Isolation, Characterization and Antimicrobial Study of <em>Trigoniulus corallinus</em> (Red Millipedes)</h2>
-<p>The research investigated the chemical constituents and antimicrobial properties of extracts obtained from red millipedes, using extraction, screening, chromatographic separation and spectroscopic characterization.</p>
-<p><strong>Research areas:</strong> Natural products • Organic chemistry • Antimicrobial chemistry • Spectroscopy • Bioactive compounds</p>
-</div></div></section>
+<section id="publications">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="kicker">Selected Publications</div><h2>Research & scholarly output</h2></div>
+      <p class="lead">Selected works from the current academic CV. Visit the Google Scholar profile for the broader publication record.</p>
+    </div>
+    <div class="pub-list">
+      <article class="pub"><div class="pub-num">01</div><div><h3>Gas Chromatography-Mass Spectrometric Fingerprints of Bioactive Phytochemicals from Hexane Extract of <em>Securidaca longipedunculata</em> Leaves</h3><p>Umar A. Umar, Hassan L. Gusau, Muhammad F. Usman, Mahmud A. Yabo & Yunusa B. Idris (2026). <em>Caliphate Journal of Science & Technology.</em> DOI: <a href="https://doi.org/10.4314/cajost.v8i1.14" target="_blank" rel="noopener">10.4314/cajost.v8i1.14</a></p></div></article>
+      <article class="pub"><div class="pub-num">02</div><div><h3>Isolation and Characterization of Bioactive Compounds from <em>Trigoniulus corallinus</em> (Red Millipede)</h3><p>Yunusa Buhari Idris et al. (2025). <em>ChemClass Journal</em>, 9(3), 355–368. DOI: <a href="https://doi.org/10.33003/chemclass-2025-0903/27" target="_blank" rel="noopener">10.33003/chemclass-2025-0903/27</a></p></div></article>
+      <article class="pub"><div class="pub-num">03</div><div><h3>Chemical Profiling and Zoochemical Screening of Crude Methanol Extracts from <em>Trigoniulus corallinus</em> (Red Millipede)</h3><p>Yunusa Buhari Idris et al. (2025). <em>Journal of Science, Technology and Management</em>, 3(1).</p></div></article>
+      <article class="pub"><div class="pub-num">04</div><div><h3>Millipede Secretions as a Potential Source of Antibiotics: A Mini Review</h3><p>Idris, Y. B., Sirajo, M., Hassan, L. G., Izuagie, T., Tukur, M. & Abubaka, A. U. (2025). <em>Caliphate Journal of Science and Technology.</em> DOI: <a href="https://doi.org/10.4314/cajost.v7i1.6" target="_blank" rel="noopener">10.4314/cajost.v7i1.6</a></p></div></article>
+      <article class="pub"><div class="pub-num">05</div><div><h3>Phytochemical Profiling and In-vitro Antimicrobial Evaluation of <em>Euphorbia dendroides</em> Pax Leaf Extracts against Multidrug-Resistant Microorganisms</h3><p>Lawal Abubakar, Muhammad Sirajo, Umar Abubakar Birnin Yauri & Yunusa Buhari Idris (2025). <em>ChemClass Journal</em>, 9(4), 181–192. DOI: <a href="https://doi.org/10.33003/chemclass-2025-0904/13" target="_blank" rel="noopener">10.33003/chemclass-2025-0904/13</a></p></div></article>
+      <article class="pub"><div class="pub-num">06</div><div><h3>In Vitro Antifungal Activity of Methanol Leaf Extract of <em>Nymphaea odorata</em></h3><p>Idris, Y. B., Tukur, M., Lawal, I., Abdulrashid, I., Yabo, U. B., Abubaka, A. U., Muhammad, B. & Bashar, U. (2024). <em>Journal of Science, Technology and Management.</em></p></div></article>
+      <article class="pub"><div class="pub-num">07</div><div><h3>Phytochemical Constituents and Antifungal Studies of Methanol Leaf Extract and Its Fractions of <em>Isoberlinia doka</em></h3><p>Tukur, M., Abubakar, M., Dogondaji, A. N., Danjuma, A. M., Kabiru, M. & Idris, Y. B. (2022). <em>International Journal of Science for Global Sustainability.</em></p></div></article>
+      <article class="pub"><div class="pub-num">08</div><div><h3>Senior Secondary Students’ Utilization of Information and Communication Technology (ICT) and Their Performance in Science Subjects in Sokoto State, Nigeria</h3><p>Abdulrashid, I., Idris, Y. B., Idris, T., Hamza, M. & Bello, J. A. (2019). <em>Bulletin of the Science Association of Nigeria</em>, 30, 56–62.</p></div></article>
+    </div>
+  </div>
+</section>
 
-<section id="publications"><div class="container">
-<div class="section-head"><h2>Selected Publications</h2><p>Publication record as presented in the current CV.</p></div>
-<div class="pub"><h3>Gas Chromatography-Mass Spectrometric Fingerprints of Bioactive Phytochemicals from Hexane Extract of <em>Securidaca longipedunculata</em> Leaves</h3><p>Umar A. Umar, Hassan L. Gusau, Muhammad F. Usman, Mahmud A. Yabo & Yunusa B. Idris (2026). <em>Caliphate Journal of Science & Technology</em>, 8(1). DOI: 10.4314/cajost.v8i1.14</p></div>
-<div class="pub"><h3>Isolation and Characterization of Bioactive Compounds from <em>Trigoniulus corallinus</em> (Red Millipede)</h3><p>Yunusa Buhari Idris et al. (2025). <em>ChemClass Journal</em>, 9(3), 355–368. DOI: 10.33003/chemclass-2025-0903/27</p></div>
-<div class="pub"><h3>Millipede Secretions as a Potential Source of Antibiotics: A Mini Review</h3><p>Idris, Y. B. et al. (2025). <em>Caliphate Journal of Science and Technology</em>. DOI: 10.4314/cajost.v7i1.6</p></div>
-<div class="pub"><h3>Chemical Profiling and Zoochemical Screening of Crude Methanol Extracts from <em>Trigoniulus corallinus</em></h3><p>Yunusa Buhari Idris et al. (2025). <em>Journal of Science, Technology and Management</em>, 3(1).</p></div>
-<div class="pub"><h3>In vitro Antifungal Activity of Methanol Leaf Extract of <em>Nymphaea odorata</em></h3><p>Idris, Y. B. et al. (2024). <em>Journal of Science, Technology and Management</em>, Federal Polytechnic Mubi, Nigeria.</p></div>
-<div class="pub"><h3>Phytochemical Constituents and Antifungal Studies of Methanol Leaf Extract and its Fractions of <em>Isoberlinia doka</em></h3><p>Tukur, M. et al., including Idris, Y. B. (2022). <em>International Journal of Science for Global Sustainability</em>.</p></div>
-</div></section>
+<section id="experience">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="kicker">Academic Journey</div><h2>Education & experience</h2></div>
+    </div>
+    <div class="two-col">
+      <div class="card">
+        <h3>Education</h3>
+        <div class="timeline">
+          <div class="timeline-item"><div class="date">2023–2025</div><h3>M.Sc. Chemistry</h3><p>Sokoto State University, Sokoto</p></div>
+          <div class="timeline-item"><div class="date">2014–2017</div><h3>B.Sc. Pure Chemistry</h3><p>Usmanu Danfodiyo University, Sokoto</p></div>
+          <div class="timeline-item"><div class="date">2007–2010</div><h3>NCE Chemistry & Computer Science</h3><p>Shehu Shagari College of Education, Sokoto</p></div>
+          <div class="timeline-item"><div class="date">2006</div><h3>Trade Test Certificate Grade III</h3><p>Youth Development Centre, Sokoto</p></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Professional Experience</h3>
+        <div class="timeline">
+          <div class="timeline-item"><div class="date">Current</div><h3>Assistant Lecturer</h3><p>Department of Chemistry and Chemistry Education, Shehu Shagari University of Education, Sokoto.</p></div>
+          <div class="timeline-item"><div class="date">2012–2026</div><h3>Teaching & Educational Administration</h3><p>BUA Cement Schools (formerly Sokoto Cement Schools), including Principal Education Officer, Senior Master and other teaching/administrative roles.</p></div>
+          <div class="timeline-item"><div class="date">2018–2026</div><h3>Head, Examinations and Finance Unit</h3><p>BUA Cement Schools.</p></div>
+          <div class="timeline-item"><div class="date">2019–2025</div><h3>Chairman, Cooperative Society</h3><p>Sokoto Cement Schools Cooperative Society.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<section id="presentations" style="background:white"><div class="container two">
-<div><div class="section-head"><h2>Conferences & Presentations</h2></div>
-<div class="timeline">
-<div class="item"><strong>2026</strong><br>“Exploring Nature’s Chemistry as Solutions to Societal Challenges” — Chemistry Festival.</div>
-<div class="item"><strong>2025</strong><br>Zoochemical Screening and Antimicrobial Evaluation of Bioactive Compounds from <em>Trigoniulus corallinus</em> — Postgraduate Network in Chemistry Congress.</div>
-<div class="item"><strong>2025</strong><br>Chemical Profiling and Zoochemical Screening of Methanol Extract from <em>Trigoniulus corallinus</em> — 10th ACS Nigeria Annual Symposium.</div>
-<div class="item"><strong>2024</strong><br>In vitro Antifungal Activity of Methanol Leaf Extract of <em>Nymphaea odorata</em> — ACS Africa Regional Conference on Green and Sustainable Chemistry.</div>
-<div class="item"><strong>2020</strong><br>Preliminary Investigation of Selected Plant Seeds as Natural Coagulants for Water Treatment — 5th ACS Nigeria Symposium.</div>
-</div></div>
-<div><div class="section-head"><h2>Professional Memberships</h2></div>
-<ul class="list">
-<li>Chemical Society of Nigeria (CSN)</li><li>American Chemical Society (ACS)</li><li>Royal Society of Chemistry (MRSC)</li><li>American Institute of Chemical Engineers (AIChE)</li><li>International Younger Chemist Network (IYCN)</li><li>Science Association of Nigeria (MSAN)</li><li>Science Teachers Association of Nigeria (STAN)</li><li>Teachers Registration Council of Nigeria (TRCN)</li>
-</ul></div>
-</div></section>
+<section>
+  <div class="container">
+    <div class="two-col">
+      <article class="card">
+        <div class="kicker">Leadership & Service</div>
+        <h2>Academic and community engagement</h2>
+        <div class="pill-list" style="margin-top:18px">
+          <span class="pill">ACS SSU International Chapter President, 2023–2025</span>
+          <span class="pill">ACS Nigeria Student Chapter Committee</span>
+          <span class="pill">Member, ACS Nigeria 10th Symposium LOC</span>
+          <span class="pill">Kalhu Community Development Committee</span>
+          <span class="pill">Board Member, KL-YAAN</span>
+          <span class="pill">Science outreach & Chemistry Festivals</span>
+        </div>
+      </article>
+      <article class="card">
+        <div class="kicker">Professional Memberships</div>
+        <h2>Professional networks</h2>
+        <div class="pill-list" style="margin-top:18px">
+          <span class="pill">American Chemical Society (MACS)</span>
+          <span class="pill">Royal Society of Chemistry (MRSC)</span>
+          <span class="pill">Science Association of Nigeria (MSAN)</span>
+          <span class="pill">International Younger Chemist Network (IYCN)</span>
+          <span class="pill">American Institute of Chemical Engineers (MAIChE)</span>
+          <span class="pill">Chemical Society of Nigeria (MCSN)</span>
+          <span class="pill">TRCN</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
 
-<section id="experience"><div class="container">
-<div class="section-head"><h2>Experience & Leadership</h2></div>
-<div class="cards">
-<div class="card"><h3>BUA Cement Schools</h3><p>Teaching and education roles from 2012–2026, progressing to Principal Education Officer in 2026. Also served in examinations, finance, guidance and counselling roles.</p></div>
-<div class="card"><h3>ACS Sokoto State University</h3><p>President, American Chemical Society Sokoto State University International Chapter (2023–2025), with involvement in chemistry festivals, outreach and professional activities.</p></div>
-<div class="card"><h3>Research & Academic Service</h3><p>Member of the Local Organizing Committee for the 10th ACS Nigeria Annual Symposium and member of the ACS Nigeria International Chapter Committee on Students Chapters.</p></div>
-<div class="card"><h3>Digital & School Systems</h3><p>Designed automated examination records and school-fees collection databases using Microsoft Excel for school administration.</p></div>
-<div class="card"><h3>Community Service</h3><p>Member, Kalhu Community Development Committee; Board Member, Kennedy-Lugar Youth Exchange and Study Alumni Association of Nigeria; Secretary General, Kalfu Students’ Association.</p></div>
-<div class="card"><h3>Awards & Recognition</h3><p>Includes ACS conference travel support, rapporteur appreciation, volunteer appreciation and commendations for educational and community service.</p></div>
-</div>
-</div></section>
+<section id="profiles">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="kicker">Academic Profiles</div><h2>Find me online</h2></div>
+    </div>
+    <div class="profiles">
+      <a class="profile-link" href="https://www.linkedin.com/in/buhari-yunusa-idris-97203263" target="_blank" rel="noopener"><strong>LinkedIn</strong><span>Professional profile and career activities →</span></a>
+      <a class="profile-link" href="https://scholar.google.com/citations?user=LZvACn4AAAAJ&hl=en" target="_blank" rel="noopener"><strong>Google Scholar</strong><span>Publications and citation profile →</span></a>
+      <a class="profile-link" href="https://orcid.org/0009-0008-1848-4927" target="_blank" rel="noopener"><strong>ORCID</strong><span>Persistent researcher identifier →</span></a>
+    </div>
+  </div>
+</section>
 
-<section><div class="container">
-<div class="section-head"><h2>Education</h2></div>
-<div class="timeline">
-<div class="item"><strong>M.Sc. Chemistry — 2023–2025</strong><br>Sokoto State University, Sokoto</div>
-<div class="item"><strong>B.Sc. Pure Chemistry — 2014–2017</strong><br>Usmanu Danfodiyo University, Sokoto</div>
-<div class="item"><strong>NCE Chemistry & Computer Science — 2007–2010</strong><br>Shehu Shagari College of Education, Sokoto</div>
-<div class="item"><strong>Trade Test Certificate Grade III — 2006</strong><br>Youth Development Centre, Sokoto</div>
-</div>
-</div></section>
+<section id="contact" class="contact">
+  <div class="container contact-grid">
+    <div>
+      <div class="kicker" style="color:#7ee5ee">Contact</div>
+      <h2>Let's connect around chemistry, education and research.</h2>
+      <p style="color:#d6e5ef;max-width:650px">For academic collaboration, research discussions, chemistry education initiatives, conferences and professional opportunities, please use the institutional contact address below.</p>
+    </div>
+    <div class="contact-card">
+      <div class="contact-item"><small>Institutional Address</small>Department of Chemistry and Chemistry Education<br>Shehu Shagari University of Education<br>Sokoto, Nigeria</div>
+      <div class="contact-item"><small>Email</small><a href="mailto:buyuidy@gmail.com">buyuidy@gmail.com</a></div>
+      <div class="contact-item"><small>Research Identity</small><a href="https://orcid.org/0009-0008-1848-4927" target="_blank" rel="noopener">ORCID: 0009-0008-1848-4927</a></div>
+    </div>
+  </div>
+</section>
+</main>
 
-<section id="contact" class="contact"><div class="container contact-grid">
-<div><div class="eyebrow" style="color:#9de1d5">Let's connect</div><h2>Research, collaboration & academic opportunities</h2><p>I welcome professional conversations around chemistry research, science outreach, sustainable chemistry, academic collaboration and related opportunities.</p></div>
-<div><p><strong>Research & Professional Profiles</strong><br>
-<a href="https://orcid.org/0009-0008-1848-4927" target="_blank" rel="noopener">ORCID: 0009-0008-1848-4927</a><br>
-<a href="https://scholar.google.com/citations?user=LZvACn4AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a><br>
-<a href="https://www.linkedin.com/in/buhari-yunusa-idris-97203263" target="_blank" rel="noopener">LinkedIn</a></p>
-<p><strong>Email</strong><br><a href="mailto:buyuid@gmail.com">buyuid@gmail.com</a></p><p><strong>Phone</strong><br>+234 806 786 7272<br>+234 902 937 3712</p><p><strong>Location</strong><br>Sokoto, Nigeria</p></div>
-</div></section>
-<footer><div class="container">© 2026 Buhari Yunusa Idris. Academic & Research Profile.</div></footer>
+<footer>
+  <div class="container footer-inner">
+    <div>© <span id="year"></span> Buhari Yunusa Idris. All rights reserved.</div>
+    <div><span class="chem">H₂O · CO₂ · C₆H₆ · ⚗</span> Chemistry for knowledge and society.</div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
